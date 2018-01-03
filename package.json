@@ -1,0 +1,29 @@
+{
+  "name": "async-io-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/app.js",
+    "exec": "babel-node src/app.js",
+    "postinstall": "postinstall-build lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktoho12/async-io-problem.git"
+  },
+  "author": "mk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mktoho12/async-io-problem/issues"
+  },
+  "homepage": "https://github.com/mktoho12/async-io-problem#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "postinstall-build": "^5.0.1"
+  }
+}
